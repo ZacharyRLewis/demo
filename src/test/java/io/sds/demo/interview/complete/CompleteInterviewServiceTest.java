@@ -1,4 +1,4 @@
-package interview.complete;
+package io.sds.demo.interview.complete;
 
 import io.sds.demo.DemoApplication;
 import io.sds.demo.interview.InterviewService;

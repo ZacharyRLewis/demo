@@ -23,8 +23,6 @@ public class CompleteInterviewService
     }
 
     private List<String> filterPassedCandidates(Map<Integer, Candidate> candidates, boolean passed) {
-        // TODO: Implement this method with Java Streams to return a list of Candidate names that passed
-
         return candidates.values().stream()
             .filter(c -> c.getPassed() == passed)
             .map(Candidate::getName)
@@ -35,14 +33,12 @@ public class CompleteInterviewService
         var c1 = new Candidate("Tom", true);
 
         changeIt(c1);
-        // TODO: Tell me the value of c1.getName() ?
     }
 
     void number() {
         int num = 100;
 
         changeIt(num);
-        // TODO: Tell me the value of num ?
     }
 
     void changeIt(Candidate c) {

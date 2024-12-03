@@ -4,6 +4,7 @@ import io.sds.demo.model.Candidate;
 import java.util.List;
 import java.util.Map;
 
+// TODO: Make this available to be wired up by the Spring context
 public class InterviewService
 {
     private static final Map<Integer, Candidate> CANDIDATES = Map.of(

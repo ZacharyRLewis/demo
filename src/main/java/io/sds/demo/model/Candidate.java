@@ -1,7 +1,6 @@
 package io.sds.demo.model;
 
-import java.util.Map;
-
+// TODO: Turn this into a Java record
 public class Candidate
 {
     private String name;
